@@ -8,7 +8,7 @@ Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardant
 
 #### SVOLGIMENTO
 
-Componia la nostra tabella in questo modo:
+Modellizziamo la nostra tabella in questo modo:
 
 1. **ID**: INT, PK (NOT NULL, AUTO_INCREMENT, UNIQUE). È la chiave primaria della tabella e identifica univocamente ogni auto, dato obbligatorio autoincrementale, limite numerico a 4.294.967.295 (siamo ottimisti).
 2. **Marca**: VARCHAR(50), NOT NULL. Rappresenta la marca dell'auto, limite di 50 caratteri, dato obbligatorio.
